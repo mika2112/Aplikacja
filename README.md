@@ -1,6 +1,6 @@
 # Aplikacja
 
-Czym będzie aplikacja Alkomix(?)?
+Czym będzie aplikacja Alkomix?
 Program za zadanie obejmie wyszukiwarkę do drinków. wyróżnić można dwa tryby wyszukiwania:
 pierwszy- wyszukiwanie na podstawie wpisanych/dodanych alkoholi przepisów na drinki
 drugi- na podstawie nazwy drinka pokazywałby przepis i potrzebne składniki.
