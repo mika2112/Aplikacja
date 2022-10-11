@@ -6,7 +6,7 @@ pierwszy- wyszukiwanie na podstawie wpisanych/dodanych alkoholi przepisów na dr
 drugi- na podstawie nazwy drinka pokazywałby przepis i potrzebne składniki.  
 Dodatkowo dostęny będzie quiz na podstwie, którego użytkownikowi zostanie zaproponowany cocktail na podstawie jego preferencji.  
 Sama wyszukiwarka może działać na podstawie trybów (przejść) do trybu wyszukiwania po składnikach lub nazwach drinków.  
-Z warstwy technicznej samo dodawanie składników może odbywać się za pomocą wybrania cyfry z podanych, wcześniej zdefiniowanych nazw alkoholi,  
+Z warstwy technicznej samo dodawanie składników może odbywać się za pomocą wybrania cyfry z podanych, wcześniej zdefiniowanych nazw alkoholi, 
 albo poprzez wpisanie po prostu nazwy, ewentualne jest też klikanie w obrazki? (tu ograniczeniem są umiejętności programistyczne).  
 Po wyszukaniu interesującego elementu program będzie miał za zadanie wyświetlenie potrzebnych składników, przyrządów, zamienników zarówno składników jak i narzędzi,
 pokazanie pełnego przepisu (krok po kroku) jak przygotować dany drink.  
