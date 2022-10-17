@@ -13,5 +13,9 @@ pokazanie pełnego przepisu (krok po kroku) jak przygotować dany drink.
 *Opcjonalne- stworzyć system opinii dla każdego drinka, gdzie na bieżąco można by dodawać swoje odczucia co do danego drinka.  
 Obowiązkowym elementem programu bez wątpienia będzie edycja już dodanych przepisów, ale i możliwość dodawanie nowych do puli- wliczając w to również dodawanie
 nowych składników.  
-Program będzie napisany w środowisku :Java  
-
+Program będzie napisany w środowisku :Java    
+            
+ Podział na Klasy:  
+-Składniki drinków  
+-Drinki  
+-wyszukiwarki  
