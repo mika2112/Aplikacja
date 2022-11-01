@@ -1,7 +1,9 @@
 enum Alkohol {
-   rum,
+   Ciemnyrum,
    whisky,
-   bialyRum,
-   gin
+   jasnyRum,
+   gin,
+   wódka,
+   tequila
    // Uzupełnij potrzebnymi alkoholami
 };
