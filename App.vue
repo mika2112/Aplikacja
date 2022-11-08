@@ -1,8 +1,9 @@
 <template>
 <div>
-  <center><h1>Wyszukiwarka do drinków pt: Alkomix</h1> </center>
+  
+  <h1>----------Alkomix----------</h1>
 <AlkoholeApp />
-    <div><p>plik App.vue działa</p></div>
+<DrinkApp />
    
   </div>
 </template>
@@ -12,6 +13,7 @@
 
 
 import aklohole from './components/AlkoholeApp.vue'
+
 export default {
   components: {
     AlkoholeApp: aklohole
@@ -26,11 +28,16 @@ export default {
 
 <style>
  body {
+        background: url("./assets/tapeta.png") no-repeat center center
+        fixed;
+        
+        background-size: 1550px,2100px;
         background-color: black;
         font-style: 24px;
         color: gold;
         }
 </style>
+
 
 
 
