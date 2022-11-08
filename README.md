@@ -14,5 +14,5 @@ pokazanie pełnego przepisu (krok po kroku) jak przygotować dany drink.
 Obowiązkowym elementem programu bez wątpienia będzie edycja już dodanych przepisów, ale i możliwość dodawanie nowych do puli- wliczając w to również dodawanie
 nowych składników.  
 Program będzie napisany w środowisku :JavaScript   
-Użyte zostaną biblioteki: jQuery
+Przy pomocy frameworka vue
            
