@@ -4,15 +4,20 @@ Czym będzie aplikacja Alkomix?
 Program za zadanie obejmie wyszukiwarkę do drinków. wyróżnić można dwa tryby wyszukiwania:  
 pierwszy- wyszukiwanie na podstawie wpisanych/dodanych alkoholi przepisów na drinki  
 drugi- na podstawie nazwy drinka pokazywałby przepis i potrzebne składniki.  
-Dodatkowo dostęny będzie quiz na podstwie, którego użytkownikowi zostanie zaproponowany cocktail na podstawie jego preferencji.  
-Sama wyszukiwarka może działać na podstawie trybów (przejść) do trybu wyszukiwania po składnikach lub nazwach drinków.  
-Z warstwy technicznej samo dodawanie składników może odbywać się za pomocą wybrania cyfry z podanych, wcześniej zdefiniowanych nazw alkoholi, 
-albo poprzez wpisanie po prostu nazwy, ewentualne jest też klikanie w obrazki? (tu ograniczeniem są umiejętności programistyczne).  
+Sama wyszukiwarka może działać na podstawie trybów (przejść) do trybu wyszukiwania po składnikach lub nazwach drinków, aktualnie rozważana jest możliwość aby oba elementy tj. składniki i wyszukiwarka na podstawie nazwy znajdowały się w jednym miejscu.  
+Z warstwy technicznej samo dodawanie składników może odbywać się za pomocą wybrania alkoholu z podanych, wcześniej zdefiniowanych nazw alkoholi, 
+albo poprzez wpisanie po prostu nazwy w wyszukiwarce.  
 Po wyszukaniu interesującego elementu program będzie miał za zadanie wyświetlenie potrzebnych składników, przyrządów, zamienników zarówno składników jak i narzędzi,
 pokazanie pełnego przepisu (krok po kroku) jak przygotować dany drink.  
 *Opcjonalne- stworzyć system opinii dla każdego drinka, gdzie na bieżąco można by dodawać swoje odczucia co do danego drinka.  
-Obowiązkowym elementem programu bez wątpienia będzie edycja już dodanych przepisów, ale i możliwość dodawanie nowych do puli- wliczając w to również dodawanie
-nowych składników.  
-Program będzie napisany w środowisku :JavaScript   
-Przy pomocy frameworka vue
-           
+Program będzie napisany w środowisku :JavaScript, html, css   
+Przy pomocy: frameworka vue, nodes js, vue-router.  
+
+Elementem z którego niestety raczej zrezygnujemy jest:  
+-Quiz na podstawie którego miałby być wyszukiwany preferowany drink.  
+
+Elementem, który również może zostać usunięty jest:
+-Dynamiczne dodawanie i odejmowanie drinków- ze względu na poziom zaawansowania jaki by to wprowadziło do naszej aplikacji, ograniczonego czasu na wykonanie projektu.  
+Niemniej jednak spróbujemy podołać się tego zadania, ale w momencie w którym cała reszta aplikacji będzie skończona i będziemy mięli czas na próbę  
+wykonania tego elementu.  
+
