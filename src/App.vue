@@ -18,11 +18,12 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  
   color: gold;
 }
 
 nav {
+  text-align: center;
   padding: 30px;
 }
 
@@ -33,5 +34,13 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+body {
+  border-left-width: 25%;
+  border-right: 25%;
+  text-align: left;
+}
+h1{
+  text-align: center;
 }
 </style>

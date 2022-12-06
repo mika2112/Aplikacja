@@ -16,8 +16,11 @@
     
     
     <!-- szuka drinka w obiekcie drinki(nasza baza drinków) klucz mówi po jakim parametrze ma wyszukiwać/ robić akcje -->
-    <div v-for="drink in drinks" :key="drink.id">
-      <t v-if="checkIfIsValidDrink(drink.id)"><k> <router-link to="/about">Przepis</router-link>  </k><!--/router-link--><t> </t> {{drink.label}}</t>
+    <div v-for="drink in drinks" :key="(drink.id, drink.path)">
+      <t v-if="checkIfIsValidDrink(drink.id)">
+        <k> <router-link :to="drink.path">Przepis</router-link>  </k>
+        <t> 
+        </t> {{drink.label}}</t>
       <p></p>
     </div>
     
@@ -105,107 +108,122 @@ const drinks = [
   {
     id: 'testDrink',
     label: 'Test drink',
-    components: ['vodka', 'whisky']
+    components: ['vodka', 'whisky'],
+    path: '/testDrink'
   },
   {
     id: 'longIsland',
     label: 'Long Island',
-    components: ['vodka', 'tequila', 'whiteRum', 'gin', 'tripleSec']
+    components: ['vodka', 'tequila', 'whiteRum', 'gin', 'tripleSec'],
+    path:'/longIsland'
   },
   {
     id: 'mojito',
     label: 'Mojijto',
-    components: ['whiteRum']
+    components: ['whiteRum'],
+    path: '/mojito'
   },
   {
     id: 'margarita',
     label: 'Margarita',
-    components: ['tequila', 'tripleSec']
+    components: ['tequila', 'tripleSec'],
+    path: '/margarita'
   }, 
   {
     id: 'californication',
     label: 'Californiacation',
-    components: ['vodka', 'whiteRum', 'gin', 'tequila', 'orangeLiquer']
+    components: ['vodka', 'whiteRum', 'gin', 'tequila', 'orangeLiquer'],
+    path: '/californication'
   },
   {
     id: 'cubaLibre',
     label: 'Cuba libre',
-    components: ['whiteRum']
+    components: ['whiteRum'],
+    path: '/cubaLibre'
   },
   {
     id: 'aperolSpritz',
     label: 'Aperol spritz',
-    components: ['aperol']
+    components: ['aperol', 'prosecco'],
+    path: '/aperolSpritz'
   },
   {
     id: 'whiskySour',
     label: 'Whisky Sour',
-    components: ['whisky']
+    components: ['whisky'],
+    path: '/whiskySour'
   },
   {
     id: 'maiTai',
     label: 'Mai Tai',
-    components: ['whiteRum', 'darkRum']
+    components: ['whiteRum', 'darkRum'],
+    path: '/maiTai'
   },
   {
     id: 'moscowMule',
     label: 'Moscow Mule',
-    components: ['vodka']
+    components: ['vodka'],
+    path: '/moscowMule'
   },
   {
     id: 'manhattan',
     label: 'Manhattan',
-    components: ['whisky']
+    components: ['whisky'],
+    path: '/manhattan'
   },
   {
     id: 'daiquiri',
     label: 'Daiquiri',
-    components: ['whiteRum']
+    components: ['whiteRum'],
+    path: '/daiquiri'
   },
   {
     id: 'negroni',
     label: 'Negroni',
-    components: ['wermut', 'gin', 'campari']
+    components: ['wermut', 'gin', 'campari'],
+    path: '/negroni'
   },
   {
     id: 'oldFashioned',
     label: 'Old Fashioned',
-    components: ['whisky']
+    components: ['whisky'],
+    path: '/oldFashioned'
   },
   {
     id: 'dryMartini',
     label: 'Dry Martini',
-    components: ['gin', 'wermut']
+    components: ['gin', 'wermut'],
+    path: '/dryMartini'
   },
   {
     id: 'dirtyMartini',
     label: 'Dirty Martini',
-    components: ['gin', 'wermut']
-  },
-  {
-    id: 'dryMartini',
-    label: 'Dry Martini',
-    components: ['gin', 'wermut']
+    components: ['gin', 'wermut'],
+    path: '/dirtyMartini'
   },
   {
     id: 'nakedMartini',
     label: 'Naked Martini',
-    components: ['gin']
+    components: ['gin'],
+    path: '/nakedMartini'
   },
   {
     id: 'gibson',
     label: 'Gibson',
-    components: ['gin', 'wermut']
+    components: ['gin', 'wermut'],
+    path: '/gibson'
   },
   {
     id: 'silverBulletMartini',
     label: 'Silver Bullet Martini',
-    components: ['gin', 'whisky']
+    components: ['gin', 'whisky'],
+    path: '/silverBulletMartini'
   },
   {
     id: 'bloodyMary',
     label: 'Bloody Mary',
-    components: ['vodka']
+    components: ['vodka'],
+    path: '/bloodyMary'
   },
 ]
 /*
@@ -239,23 +257,7 @@ const checkIfIsValidDrink = (drinkId) => {
   })
   return checkAlcohols;
 }
-/*
-const About= {template: '<div><t>działaaaa</t></div>'}
 
-
-const routes = [
-  { path: '/about', component: About }
-]
-
-const router = VueRouter.createRouter({
-  history: VueRouter.createWebHashHistory(),
-  routes
-})
-
-const app = Vue.createApp({})
-app.use(router)
-app.mount('#app')
-*/
 </script>
 
 
@@ -308,6 +310,7 @@ t {
   font: Arial;
   font-size: 20px;
   border-radius: 3px;
+  text-align: left;
 
 }
 
