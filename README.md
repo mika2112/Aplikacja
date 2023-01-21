@@ -1,23 +1,37 @@
-# Aplikacja
 
-Czym będzie aplikacja Alkomix?  
-Program za zadanie obejmie wyszukiwarkę do drinków. wyróżnić można dwa tryby wyszukiwania:  
-pierwszy- wyszukiwanie na podstawie wpisanych/dodanych alkoholi przepisów na drinki  
-drugi- na podstawie nazwy drinka pokazywałby przepis i potrzebne składniki.  
-Sama wyszukiwarka może działać na podstawie trybów (przejść) do trybu wyszukiwania po składnikach lub nazwach drinków, aktualnie rozważana jest możliwość aby oba elementy tj. składniki i wyszukiwarka na podstawie nazwy znajdowały się w jednym miejscu.  
-Z warstwy technicznej samo dodawanie składników może odbywać się za pomocą wybrania alkoholu z podanych, wcześniej zdefiniowanych nazw alkoholi, 
-albo poprzez wpisanie po prostu nazwy w wyszukiwarce.  
-Po wyszukaniu interesującego elementu program będzie miał za zadanie wyświetlenie potrzebnych składników, przyrządów, zamienników zarówno składników jak i narzędzi,
-pokazanie pełnego przepisu (krok po kroku) jak przygotować dany drink.  
-*Opcjonalne- stworzyć system opinii dla każdego drinka, gdzie na bieżąco można by dodawać swoje odczucia co do danego drinka.  
-Program będzie napisany w środowisku :JavaScript, html, css   
-Przy pomocy: frameworka vue, nodes js, vue-router.  
+# ALKOMIX
 
-Elementem z którego niestety raczej zrezygnujemy jest:  
--Quiz na podstawie którego miałby być wyszukiwany preferowany drink.  
+Alkomix to łatwy przyrząd do przechowywania przepisów no swoje ulubione drinki. Dzięki wyszukiwarce po rodzajach alkoholu łatwo znajdziesz idealny przepis na każdą okazję. Za pomocą funkcji "Dodaj przepis", oprócz dostępu do naszej bazy drinków, możesz również dodawać swoje ulubione koktaile.
 
-Elementem, który również może zostać usunięty jest:
--Dynamiczne dodawanie i odejmowanie drinków- ze względu na poziom zaawansowania jaki by to wprowadziło do naszej aplikacji, ograniczonego czasu na wykonanie projektu.  
-Niemniej jednak spróbujemy podołać się tego zadania, ale w momencie w którym cała reszta aplikacji będzie skończona i będziemy mięli czas na próbę  
-wykonania tego elementu.  
+## Authors
+
+- [@mika2112](https://www.github.com/mika2112)
+- [@Booowoa](https://www.github.com/Booowoa)
+
+
+
+## Features
+
+- Wyszukiwanie koktaili zaznadzając rodzaj alkoholu
+- Dostęp do przepisów znajdujących się w bazie danych
+- Możliwość dodawania własnych przeisów
+
+
+
+## Środowisko
+
+Aplikacja została napisana w środowisku:
+
+-JavaScript
+-html
+-css
+
+Przy pomocy:
+
+-Node.js
+-firebase
+-vue-router
+-yarn
+
+
 
