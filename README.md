@@ -22,16 +22,16 @@ Alkomix to łatwy przyrząd do przechowywania przepisów no swoje ulubione drink
 
 Aplikacja została napisana w środowisku:
 
--JavaScript
--html
--css
+- JavaScript
+- html
+- css
 
 Przy pomocy:
 
--Node.js
--firebase
--vue-router
--yarn
+- Node.js
+- firebase
+- vue-router
+- yarn
 
 
 
