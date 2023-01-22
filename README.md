@@ -1,7 +1,7 @@
 
 # ALKOMIX
 
-Alkomix to łatwy przyrząd do przechowywania przepisów no swoje ulubione drinki. Dzięki wyszukiwarce po rodzajach alkoholu łatwo znajdziesz idealny przepis na każdą okazję. Za pomocą funkcji "Dodaj przepis", oprócz dostępu do naszej bazy drinków, możesz również dodawać swoje ulubione koktaile.
+Alkomix to łatwy przyrząd do przechowywania przepisów na swoje ulubione drinki. Dzięki wyszukiwarce po rodzajach alkoholu łatwo znajdziesz idealny przepis na każdą okazję. Za pomocą funkcji "Dodaj przepis", oprócz dostępu do naszej bazy drinków, możesz również dodawać swoje ulubione koktaile.
 
 ## Authors
 
